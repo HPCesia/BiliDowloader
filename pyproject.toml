@@ -1,0 +1,12 @@
+[project]
+name = "bili-downloader"
+version = "0.1.0"
+description = "A simple video downloader for Bilibili"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.31.0",
+    "Pillow>=10.2.0",
+    "ffmpy>=0.3.1",
+]
